@@ -1,0 +1,88 @@
+#include<stdio.h>
+main()
+
+{
+    int calif;
+    printf("CALIFICACION DE LA PRIMER MATERIA\n");
+    printf("DAME TU CALIFICACION: \n", calif);
+    scanf("%d", &calif);
+
+        if(calif>=8 && calif<9)
+        {
+            printf("SATISFACTORIO\n");
+        }
+            if(calif>=9 && calif<10)
+            {
+                printf("DESTACADO\n");
+            }
+        if(calif>=10 && calif<=10)
+                {
+                    printf("AUTONOMO\n");
+                }
+                    if (calif>=11)
+                    {
+                        printf("ERROR\n");
+                    }
+        else
+        {
+            if(calif<=7)
+            {
+                printf("REPROBADO\n");
+            }
+}
+printf("CALIFICACION DE LA SEGUNDA MATERIA\n");
+    printf("DAME TU CALIFICACION: \n", calif);
+    scanf("%d", &calif);
+
+        if(calif>=8 && calif<9)
+        {
+            printf("SATISFACTORIO\n");
+        }
+            if(calif>=9 && calif<10)
+            {
+                printf("DESTACADO\n");
+            }
+        if(calif>=10 && calif<=10)
+                {
+                    printf("AUTONOMO\n");
+                }
+                    if (calif>=11)
+                    {
+                        printf("ERROR\n");
+                    }
+        else
+        {
+            if(calif<=7)
+            {
+                printf("REPROBADO\n");
+            }
+}
+printf("CALIFICACION DE LA TERCERA MATERIA\n");
+    printf("DAME TU CALIFICACION: \n", calif);
+    scanf("%d", &calif);
+
+        if(calif>=8 && calif<9)
+        {
+            printf("SATISFACTORIO\n");
+        }
+            if(calif>=9 && calif<10)
+            {
+                printf("DESTACADO\n");
+            }
+        if(calif>=10 && calif<=10)
+                {
+                    printf("AUTONOMO\n");
+                }
+                    if (calif>=11)
+                    {
+                        printf("ERROR\n");
+                    }
+        else
+        {
+            if(calif<=7)
+            {
+                printf("REPROBADO\n");
+            }
+}
+return 0;
+}
