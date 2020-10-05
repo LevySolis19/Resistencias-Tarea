@@ -1,0 +1,84 @@
+#include <stdio.h>
+
+int main ()
+{
+    char  Variable1,Variable2,Variable3;
+    float cal1,cal2,cal3,prom;
+
+    printf("Ingresa 3 calificaciones separadas por comas y utilizando las letras de la A a la F segun sea el caso:\n");
+    scanf("%c %c %c", &Variable1, &Variable2, &Variable3);
+
+
+
+if (Variable1=='A')
+       cal1=0+10;
+
+    else if (Variable1=='B')
+        cal1=0+9;
+
+    else if (Variable1=='C')
+        cal1=0+8;
+
+    else if (Variable1=='D')
+        cal1=0+7;
+
+    else if (Variable1=='E')
+        cal1=0+6;
+
+    else if (Variable1=='F')
+        cal1=0+5;
+        else
+        {
+            printf("calificacion reprobatoria\n");
+        }
+
+if (Variable2=='A')
+       cal2=0+10;
+
+
+    else if (Variable2=='B')
+        cal2=0+9;
+
+   else if (Variable2=='C')
+        cal2=0+8;
+
+   else if (Variable2=='D')
+        cal2=0+7;
+
+   else if (Variable2=='E')
+        cal2=0+6;
+
+   else if (Variable2=='F')
+        cal2=0+5;
+         else
+         {
+             printf("calificacion reprobatoria\n");
+         }
+if (Variable3=='A')
+       cal3=0+10;
+
+   else if (Variable3=='B')
+        cal3=0+9;
+
+   else if (Variable3=='C')
+        cal3=0+8;
+
+   else if (Variable3=='D')
+        cal3=0+7;
+
+   else if (Variable3=='E')
+        cal3=0+6;
+
+   else if (Variable3=='F')
+        cal3=0+5;
+   else
+   {
+       printf("calificacion reprobatoria\n");
+   }
+
+      prom=(cal1+cal2+cal3)/3;
+
+{
+printf ("Tu promedio es de:%f\n", prom);
+}
+}
